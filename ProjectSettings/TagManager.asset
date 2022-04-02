@@ -4,11 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - TowerBaseSolid
-  - TowerBaseLiquid
   - SolidGround
   - LiquidWater
-  - EnemyTrack
+  - TowerBaseSolid
+  - TowerBaseLiquid
   layers:
   - Default
   - TransparentFX
