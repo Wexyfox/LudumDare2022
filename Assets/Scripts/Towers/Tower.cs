@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WizardTower : MonoBehaviour
+public class Tower : MonoBehaviour
 {
     private Transform target;
 
     [Header("Attributes")]
-    public float range = 3f;
-    public float fireRate = 1f;
+    public float range;
+    public float fireRate;
     private float fireCountdown = 0f;
 
     [Header("Unity required fields")]
@@ -19,7 +19,7 @@ public class WizardTower : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating("TargetSearch", 0f, 0.5f);
+        InvokeRepeating("TargetSearch", 0.1f, 0.5f);
     }
 
     private void TargetSearch()
@@ -28,7 +28,7 @@ public class WizardTower : MonoBehaviour
         float shortestDistance = Mathf.Infinity;
         GameObject nearestEnemy = null;
 
-        foreach ( GameObject enemy in enemies)
+        foreach (GameObject enemy in enemies)
         {
             float temporaryY = enemy.transform.position.y - transform.position.y;
             temporaryY = temporaryY * 2;
@@ -73,7 +73,7 @@ public class WizardTower : MonoBehaviour
 
     }
 
-    private void Shoot() 
+    private void Shoot()
     {
         GameObject projectileSpawned = (GameObject)Instantiate(projectilePrefab, projectileSpawnTransform.position, projectileSpawnTransform.rotation);
         ProjectileHoming projectile = projectileSpawned.GetComponent<ProjectileHoming>();
