@@ -19,7 +19,7 @@ public class Tower : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating("TargetSearch", 0.1f, 0.5f);
+        InvokeRepeating("TargetSearch", 0f, 0.3f);
     }
 
     private void TargetSearch()
