@@ -12,7 +12,6 @@ public class DetectionWater : MonoBehaviour
         if (collision.gameObject.CompareTag("LiquidWater"))
         {
             placementTilesValid = true;
-            Debug.Log("Tower is over water");
         }
 
         if (collision.gameObject.CompareTag("TowerBaseLiquid"))
@@ -27,7 +26,6 @@ public class DetectionWater : MonoBehaviour
         if (collision.gameObject.CompareTag("LiquidWater"))
         {
             placementTilesValid = false;
-            Debug.Log("Tower is no longer over water");
         }
 
         if (collision.gameObject.CompareTag("TowerBaseLiquid"))
@@ -37,7 +35,7 @@ public class DetectionWater : MonoBehaviour
         }
     }
 
-    public bool ValidPlacementCheck()
+    public bool WaterPlacementCheck()
     {
         if (obstruction == false & placementTilesValid == true)
         {

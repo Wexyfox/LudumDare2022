@@ -8,6 +8,7 @@ TagManager:
   - LiquidWater
   - TowerBaseSolid
   - TowerBaseLiquid
+  - Enemy
   layers:
   - Default
   - TransparentFX

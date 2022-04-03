@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DetectionGround : MonoBehaviour
 {
-    private bool placementTilesValid;
+    private bool placementTilesValid = false;
     private bool obstruction = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -12,7 +12,6 @@ public class DetectionGround : MonoBehaviour
         if (collision.gameObject.CompareTag("SolidGround"))
         {
             placementTilesValid = true;
-            Debug.Log("Tower is over ground");
         }
 
         if (collision.gameObject.CompareTag("TowerBaseSolid"))
@@ -27,7 +26,6 @@ public class DetectionGround : MonoBehaviour
         if (collision.gameObject.CompareTag("SolidGround"))
         {
             placementTilesValid = false;
-            Debug.Log("Tower is no longer over ground");
         }
 
         if (collision.gameObject.CompareTag("TowerBaseSolid"))
@@ -37,7 +35,7 @@ public class DetectionGround : MonoBehaviour
         }
     }
 
-    public bool ValidPlacementCheck()
+    public bool GroundPlacementCheck()
     {
         if (obstruction == false & placementTilesValid == true)
         {
