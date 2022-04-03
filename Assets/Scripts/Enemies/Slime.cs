@@ -19,7 +19,7 @@ public class Slime : MonoBehaviour
         Vector3 direction = target.position - transform.position;
         transform.Translate(direction.normalized * speed * Time.deltaTime, Space.World);
 
-        if (Vector3.Distance(transform.position , target.position) <= 0.05f)
+        if (Vector3.Distance(transform.position , target.position) <= 0.01f)
         {
             GetNextWaypoint();
         }
@@ -28,6 +28,14 @@ public class Slime : MonoBehaviour
     private void GetNextWaypoint()
     {
         waypointIndex++;
-        target = Waypoints.waypointTransforms[waypointIndex];
+        if (waypointIndex < Waypoints.waypointTransforms.Length)
+        {
+            target = Waypoints.waypointTransforms[waypointIndex];
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+        
     }
 }
