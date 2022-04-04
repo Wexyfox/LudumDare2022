@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b68252cb32cc372428026af3a06d3a12, type: 3}
   m_Name: Bella
   m_EditorClassIdentifier: 
-  Name: Girl
+  Name: Bella
   ProfileController: {fileID: 9100000, guid: 188f9aca5157a99459d72f23cd44c447, type: 2}

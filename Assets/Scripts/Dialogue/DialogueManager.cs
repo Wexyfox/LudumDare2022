@@ -100,6 +100,8 @@ public class DialogueManager : MonoBehaviour
         TextAnimator.runtimeAnimatorController = font.Controller;
         TextAnimator.SetBool("isTalking", true);
 
+        PortraitName.text = message.Character.Name;
+
         PortraitAnimator.runtimeAnimatorController = message.Character.ProfileController;
         PortraitAnimator.SetBool("isTalking", true);
         
