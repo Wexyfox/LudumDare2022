@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 36
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -118,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84222c21ac44f4c459ac96182515da34
-      internalID: 763912049
+      spriteID: 30ea40a420e606a4385e2edfc03b7069
+      internalID: -467069194
       vertices: []
       indices: 
       edges: []
@@ -139,8 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca0f08fe81e6f5541b812f7e7f361886
-      internalID: -2122934570
+      spriteID: da0953be71e523243b2a3262ecad8099
+      internalID: 1810591935
       vertices: []
       indices: 
       edges: []
@@ -160,71 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 771f05417f3eefb47b9b96ce8fdc155e
-      internalID: 452857287
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arrows_3
-      rect:
-        serializedVersion: 2
-        x: 53
-        y: 5
-        width: 12
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b23e128fe9f06dc49896a15aea0c9859
-      internalID: -60333238
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arrows_4
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 18
-        width: 20
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 360c3484d262ce74bb305c67d9743f4a
-      internalID: -1764619176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arrows_5
-      rect:
-        serializedVersion: 2
-        x: 87
-        y: 5
-        width: 12
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3832a96e1f348e64a9a0fbc191d3cd19
-      internalID: 1006558829
+      spriteID: 274ec69f0b2dd4e4685611c4f9d196b0
+      internalID: -1703468869
       vertices: []
       indices: 
       edges: []
@@ -244,29 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4622584bf19a5534ba26524b4d753a5f
-      internalID: -1655544192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arrows_7
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 1
-        width: 20
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0503a51142ac294f8af09cf8bf3b2a2
-      internalID: -1371662586
+      spriteID: 455a70a522836604cb2d908923a95ed9
+      internalID: 66428760
       vertices: []
       indices: 
       edges: []
@@ -282,14 +198,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      arrows_1: -2122934570
-      arrows_6: -1655544192
-      arrows_2: 452857287
-      arrows_0: 763912049
-      arrows_7: -1371662586
-      arrows_3: -60333238
-      arrows_5: 1006558829
-      arrows_4: -1764619176
+      arrows_1: 1810591935
+      arrows_6: 66428760
+      arrows_2: -1703468869
+      arrows_0: -467069194
+      arrows_7: 30166918
+      arrows_3: -321120657
+      arrows_5: 1519875482
+      arrows_4: 1611667430
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
