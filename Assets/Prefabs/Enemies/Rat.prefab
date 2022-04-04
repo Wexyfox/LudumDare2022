@@ -100,3 +100,4 @@ MonoBehaviour:
   speed: 2
   bountyValue: 3
   health: 140
+  damage: 3

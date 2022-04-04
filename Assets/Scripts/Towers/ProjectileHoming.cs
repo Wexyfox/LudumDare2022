@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ProjectileHoming : MonoBehaviour
@@ -16,7 +14,7 @@ public class ProjectileHoming : MonoBehaviour
     public void TargetAquired(Transform targetTransform)
     {
         target = targetTransform;
-    }    
+    }
 
     void Update()
     {
@@ -41,13 +39,13 @@ public class ProjectileHoming : MonoBehaviour
     private void HitTarget()
     {
         enemyScript = target.GetComponent<Enemy>();
-        economyScript = GameObject.FindGameObjectWithTag("TowerSpawner").GetComponent<EconomySystem>();
+        economyScript = GameObject.FindGameObjectWithTag("GameController").GetComponent<EconomySystem>();
         if (enemyScript.DestroyTest(damage))
         {
             bountyValue = enemyScript.DestroyBountyReturn();
             economyScript.EarnMoney(bountyValue);
             Destroy(target.gameObject);
-        }        
+        }
         Destroy(gameObject);
     }
 }
