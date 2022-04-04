@@ -9,7 +9,6 @@ public class Tower : MonoBehaviour
     [Header("Attributes")]
     public float range;
     public float fireRate;
-    public int constructionCost;
     private float fireCountdown = 0f;
 
     [Header("Unity required fields")]

@@ -496,16 +496,22 @@ MonoBehaviour:
   offsetRenderer: {fileID: 112150404}
   crystal: {fileID: 4465522163779252180, guid: 77337237e3541a74d9d42ad8ee8e1c55, type: 3}
   crystalGhost: {fileID: 21300000, guid: 4e2211a1e47d8624f900ea1b5c8a4d90, type: 3}
+  crystalCost: 100
   frog: {fileID: 7167690693122628407, guid: a19b0d5bc01807c4d8f860ecca65183a, type: 3}
   frogGhost: {fileID: 21300000, guid: d3e1213f53a25e947b88380b971d88fe, type: 3}
+  frogCost: 200
   wizard: {fileID: 2347793586283922321, guid: 442433b20456d584f8f6bf1c413f15b7, type: 3}
   wizardGhost: {fileID: 21300000, guid: 6733b65b6290adb4f99db9379b3f5008, type: 3}
+  wizardCost: 150
   spike: {fileID: 4097942989781880031, guid: 9caaefce78433324b820712f359927d2, type: 3}
   spikeGhost: {fileID: 21300000, guid: ed449b7cae0e35b45b05d54329480d54, type: 3}
+  spikeCost: 130
   bottle: {fileID: 8690904902501813919, guid: be74b41cdb564f74e9adf88ed68ce9d0, type: 3}
   bottleGhost: {fileID: 21300000, guid: 6328a37dcaf89294fb5860c8e9e41f42, type: 3}
+  bottleCost: 300
   slime: {fileID: 875663612216681356, guid: 33f02405af6e08e4a95768732c1086c4, type: 3}
   slimeGhost: {fileID: 21300000, guid: 6e02bb7ce61ef554da03e2758d02cb1c, type: 3}
+  slimeCost: 250
 --- !u!114 &434071866
 MonoBehaviour:
   m_ObjectHideFlags: 0

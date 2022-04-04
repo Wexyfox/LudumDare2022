@@ -17,6 +17,11 @@ public class EconomySystem : MonoBehaviour
         money = money + moneyEarnt;
     }
 
+    public void SpendMoney(int moneySpent)
+    {
+        money = money - moneySpent;
+    }
+
     public int CurrentMoney()
     {
         return money;
