@@ -99,5 +99,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1.4
   bountyValue: 40
-  health: 140
+  health: 200
   damage: 3
