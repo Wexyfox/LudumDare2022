@@ -9,6 +9,7 @@ TagManager:
   - TowerBaseSolid
   - TowerBaseLiquid
   - Enemy
+  - TowerSpawner
   layers:
   - Default
   - TransparentFX

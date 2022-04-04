@@ -205,6 +205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   range: 4
   fireRate: 0.5
+  constructionCost: 200
   enemyTag: Enemy
   projectilePrefab: {fileID: 8342077796191498503, guid: 0be2bdfae6e0c7640b36b16398d43911, type: 3}
   projectileSpawnTransform: {fileID: 5558187482590353497}

@@ -8,6 +8,7 @@ public class PlacementManager : MonoBehaviour
     public SpriteRenderer offsetRenderer;
     private GameObject selectedPrefab;
 
+    [Header("Required prefabs and sprites")]
     public GameObject crystal;
     public Sprite crystalGhost;
 
@@ -36,11 +37,14 @@ public class PlacementManager : MonoBehaviour
     private float tempX;
     private float tempY;
 
+    private EconomySystem economyScript;
+
     private void Start()
     {
         resetPosition = new Vector3(transform.position.x, transform.position.y);
         groundCheck = gameObject.GetComponent<DetectionGround>();
         waterCheck = gameObject.GetComponent<DetectionWater>();
+        economyScript = GameObject.FindGameObjectWithTag("TowerSpawner").GetComponent<EconomySystem>();
     }
 
     private void SpawnPrefab()
