@@ -43,6 +43,9 @@ MonoBehaviour:
     Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
     Font: {fileID: 11400000, guid: a66adceab91deb744bba48d457c89985, type: 2}
   - Body: ...
+    Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
+    Font: {fileID: 0}
+  - Body: ...
     Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
     Font: {fileID: 0}
   - Body: This is my house! Take your minions somewhere else!
