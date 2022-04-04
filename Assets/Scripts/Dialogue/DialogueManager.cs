@@ -116,6 +116,8 @@ public class DialogueManager : MonoBehaviour
         TextContent.font = font.Font;
         TextContent.fontStyle = font.FontStyle;
         TextContent.fontSize = font.FontSize;
+        TextContent.resizeTextMaxSize = font.FontSize;
+        TextContent.resizeTextForBestFit = true;
         TextContent.alignment = font.TextAnchor;
         
         TextAnimator.runtimeAnimatorController = font.Controller;
