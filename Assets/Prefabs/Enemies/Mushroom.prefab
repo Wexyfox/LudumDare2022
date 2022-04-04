@@ -98,6 +98,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.6
-  bountyValue: 60
-  health: 200
+  bountyValue: 50
+  health: 300
   damage: 5
