@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Girl_Talking
+  m_Name: Lily_Talking
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,9 +20,9 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 1398106899, guid: 2d241b3c744594946b72528f3dfa7dea, type: 3}
+      value: {fileID: 1728535279, guid: 6ad54c0b8d3b66f4695ae8483a671016, type: 3}
     - time: 0.125
-      value: {fileID: -454967041, guid: 2d241b3c744594946b72528f3dfa7dea, type: 3}
+      value: {fileID: 14134887, guid: 6ad54c0b8d3b66f4695ae8483a671016, type: 3}
     attribute: m_Sprite
     path: ProfileSprite
     classID: 114
@@ -42,8 +42,8 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 1398106899, guid: 2d241b3c744594946b72528f3dfa7dea, type: 3}
-    - {fileID: -454967041, guid: 2d241b3c744594946b72528f3dfa7dea, type: 3}
+    - {fileID: 1728535279, guid: 6ad54c0b8d3b66f4695ae8483a671016, type: 3}
+    - {fileID: 14134887, guid: 6ad54c0b8d3b66f4695ae8483a671016, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

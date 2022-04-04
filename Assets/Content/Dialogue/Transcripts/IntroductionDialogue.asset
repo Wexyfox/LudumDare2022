@@ -13,24 +13,38 @@ MonoBehaviour:
   m_Name: IntroductionDialogue
   m_EditorClassIdentifier: 
   Content:
-  - Body: Hello there...
+  - Body: 'What? What''s that racket? '
+    Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
+    Font: {fileID: 11400000, guid: a66adceab91deb744bba48d457c89985, type: 2}
+  - Body: Is that a portal!?
+    Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
+    Font: {fileID: 11400000, guid: a3babbb93501ec24c9addd5fb4152b76, type: 2}
+  - Body: Go my minions! Take over the tower and claim it for me!
     Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
     Font: {fileID: 0}
-  - Body: General Kenobi!
+  - Body: But...
     Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
     Font: {fileID: 0}
-  - Body: General Kenobi!
-    Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
+  - Body: Stunned for words? My minions will have you overrun before you even close
+      your jaw!
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
     Font: {fileID: 0}
-  - Body: General Kenobi!
-    Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
+  - Body: But!
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
     Font: {fileID: 0}
-  - Body: General Kenobi!
-    Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
+  - Body: But what?! Get out of the way. That tower belonged to a great Witch of
+      great magic and I, Bella, will claim it as my own!
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
     Font: {fileID: 0}
-  - Body: General Kenobi!
+  - Body: I LIVE HERE!
     Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
+    Font: {fileID: 11400000, guid: a3babbb93501ec24c9addd5fb4152b76, type: 2}
+  - Body: ...
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
+    Font: {fileID: 11400000, guid: a66adceab91deb744bba48d457c89985, type: 2}
+  - Body: ...
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
     Font: {fileID: 0}
-  - Body: General Kenobi!
+  - Body: This is my house! Take your minions somewhere else!
     Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
     Font: {fileID: 0}
