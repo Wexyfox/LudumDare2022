@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -8,13 +6,16 @@ public class Enemy : MonoBehaviour
     public float speed;
     public int bountyValue = 3;
     public int health = 7;
+    public int damage = 1;
 
+    private LivesController lifeScript;
     private Transform target;
     private int waypointIndex = 0;
 
     private void Start()
     {
         target = Waypoints.waypointTransforms[0];
+        lifeScript = GameObject.FindGameObjectWithTag("GameController").GetComponent<LivesController>();
     }
 
     private void Update()
@@ -37,6 +38,7 @@ public class Enemy : MonoBehaviour
         }
         else
         {
+            lifeScript.LoseLives(damage);
             Destroy(gameObject);
         }
     }
