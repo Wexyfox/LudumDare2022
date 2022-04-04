@@ -19,8 +19,10 @@ public class WaveSpawner : MonoBehaviour
         public int slimeCount;
         public int ratCount;
         public int mushroomCount;
-        public int totalCount;
         public float spawnRate;
+
+        [HideInInspector]
+        public int totalCount;
     }
 
     public Wave[] waves;
@@ -69,6 +71,7 @@ public class WaveSpawner : MonoBehaviour
     IEnumerator SpawnWave(Wave waveName)
     {
         state = SpawnState.Spawning;
+        waveName.totalCount = waveName.slimeCount + waveName.ratCount + waveName.mushroomCount;
 
         for (int i = 0; i < waveName.totalCount; i++)
         {
