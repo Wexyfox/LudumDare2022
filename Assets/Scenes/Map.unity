@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd55afc2c8324294085df4ac35c3a73a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberLives: 10
+  numberLives: 50
 --- !u!114 &268070432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -292,6 +292,24 @@ MonoBehaviour:
     mushroomCount: 0
     totalCount: 1
     spawnRate: 1
+  - name: 'Wave2 '
+    slime: {fileID: 79879601158551308, guid: 48871eff999591f4284cc9ae6eb86c38, type: 3}
+    rat: {fileID: 534533129235148521, guid: 82bf9a25658727149851376df09ccc76, type: 3}
+    mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
+    slimeCount: 5
+    ratCount: 2
+    mushroomCount: 0
+    totalCount: 7
+    spawnRate: 0.3
+  - name: Wave3
+    slime: {fileID: 79879601158551308, guid: 48871eff999591f4284cc9ae6eb86c38, type: 3}
+    rat: {fileID: 534533129235148521, guid: 82bf9a25658727149851376df09ccc76, type: 3}
+    mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
+    slimeCount: 9
+    ratCount: 0
+    mushroomCount: 2
+    totalCount: 11
+    spawnRate: 0.1
   timeBetweenWaves: 5
   waveCountdown: 0
   state: 2
