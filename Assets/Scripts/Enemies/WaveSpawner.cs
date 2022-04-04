@@ -6,7 +6,13 @@ public class WaveSpawner : MonoBehaviour
     public Transform spawnLocation;
     private GameOver finishScript;
 
-    public enum SpawnState { Spawning, Waiting, Counting };
+    public enum SpawnState
+    {
+        Spawning,
+        Waiting,
+        Counting,
+        Paused
+    };
 
     [System.Serializable]
     public class Wave
@@ -43,6 +49,11 @@ public class WaveSpawner : MonoBehaviour
 
     private void Update()
     {
+        if (state == SpawnState.Paused)
+        {
+            return;
+        }
+
         if (state == SpawnState.Waiting)
         {
             if (!CheckEnemiesAlive())
