@@ -26,6 +26,8 @@ public sealed class TimedLoop : IEnumerator<float>, IEnumerable<float>
 	private float duration;
 	private bool endNext;
 
+	public float TimeScale { get; set; } = 1.0f;
+
 	public float Current
 	{
 		get
@@ -119,7 +121,7 @@ public sealed class TimedLoop : IEnumerator<float>, IEnumerable<float>
 
 	public bool MoveNext()
 	{
-		time += UnityEngine.Time.deltaTime;
+		time += UnityEngine.Time.deltaTime * TimeScale;
 
 		if (time < duration)
 		{
