@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlacementManager : MonoBehaviour
@@ -51,7 +49,7 @@ public class PlacementManager : MonoBehaviour
         resetPosition = new Vector3(transform.position.x, transform.position.y);
         groundCheck = gameObject.GetComponent<DetectionGround>();
         waterCheck = gameObject.GetComponent<DetectionWater>();
-        economyScript = GameObject.FindGameObjectWithTag("TowerSpawner").GetComponent<EconomySystem>();
+        economyScript = GameObject.FindGameObjectWithTag("GameController").GetComponent<EconomySystem>();
     }
 
     private void SpawnPrefab()
@@ -111,13 +109,11 @@ public class PlacementManager : MonoBehaviour
                 PlacementCheck();
                 if (validPlacement)
                 {
-                    Debug.Log(towerCost);
                     if (towerCost <= economyScript.CurrentMoney())
                     {
                         economyScript.SpendMoney(towerCost);
-                        SpawnPrefab();                        
+                        SpawnPrefab();
                     }
-                    
                 }
             }
         }
@@ -179,7 +175,7 @@ public class PlacementManager : MonoBehaviour
         {
             validPlacement = groundCheck.GroundPlacementCheck();
         }
-        else 
+        else
         {
             validPlacement = false;
         }
