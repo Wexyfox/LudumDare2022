@@ -7,6 +7,8 @@ public class DialogueManager : MonoBehaviour
 {
     public static DialogueManager Instance;
 
+    [Header("Dialogue")]
+    public float WindForwardSpeed = 16.0f;
     public DialogueFont DefaultDialogueFont;
 
     [Header("UI")]
@@ -18,10 +20,15 @@ public class DialogueManager : MonoBehaviour
     public Animator PortraitAnimator;
 
     [Space]
+    public GameObject ContinueIndicator;
+
+    [Space]
     public CanvasGroup Darken;
     public RectTransform BottomBar;
     public float TransitionOpenTime = 0.5f;
     public float TransitionCloseTime = 0.5f;
+
+    private bool isWindingForward = false;
 
     private void Awake()
     {
@@ -31,7 +38,17 @@ public class DialogueManager : MonoBehaviour
     private void Start()
     {
         TextContent.text = "";
+        ContinueIndicator.SetActive(false);
         UpdateTransitionPhase(0.0f);
+    }
+
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0)
+            || Input.GetKeyDown(KeyCode.Space))
+        {
+            isWindingForward = true;
+        }
     }
 
     private void UpdateTransitionPhase(float value)
@@ -67,11 +84,13 @@ public class DialogueManager : MonoBehaviour
 
             yield return new WaitForSeconds(0.05f);
 
+            ContinueIndicator.SetActive(true);
             while (!Input.GetMouseButtonDown(0)
                 && !Input.GetKeyDown(KeyCode.Space))
             {
                 yield return null;
             }
+            ContinueIndicator.SetActive(false);
         }
 
         foreach (float time in new TimedLoop(TransitionCloseTime))
@@ -91,6 +110,8 @@ public class DialogueManager : MonoBehaviour
         {
             font = DefaultDialogueFont;
         }
+
+        isWindingForward = false;
 
         TextContent.font = font.Font;
         TextContent.fontStyle = font.FontStyle;
@@ -123,7 +144,12 @@ public class DialogueManager : MonoBehaviour
 
             if (char.IsWhiteSpace(nextCharacter))
             {
-                yield return new WaitForSeconds(font.DelayBetweenWords);
+                var timer = new TimedLoop(font.DelayBetweenWords);
+                foreach (var time in timer)
+                {
+                    timer.TimeScale = isWindingForward ? WindForwardSpeed : 1.0f;
+                    yield return null;
+                }
             }
             else
             {
@@ -133,18 +159,28 @@ public class DialogueManager : MonoBehaviour
                     || nextCharacter == '?'
                     || nextCharacter == '!')
                 {
-                    yield return new WaitForSeconds(font.DelayBetweenSentences);
+                    var timer = new TimedLoop(font.DelayBetweenSentences);
+                    foreach (var time in timer)
+                    {
+                        timer.TimeScale = isWindingForward ? WindForwardSpeed : 1.0f;
+                        yield return null;
+                    }
                 }
                 else
                 {
-                    yield return new WaitForSeconds(1.0f / (font.CharactersPerMinute / 60.0f));
+                    var timer = new TimedLoop(1.0f / (font.CharactersPerMinute / 60.0f));
+                    foreach (var time in timer)
+                    {
+                        timer.TimeScale = isWindingForward ? WindForwardSpeed : 1.0f;
+                        yield return null;
+                    }
                 }
             }
 
             insertHead++;
             scanHead++;
         }
-
+        isWindingForward = false;
 
         TextAnimator.SetBool("isTalking", false);
         PortraitAnimator.SetBool("isTalking", false);

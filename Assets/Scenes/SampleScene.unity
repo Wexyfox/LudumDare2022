@@ -4758,14 +4758,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 537692054121452064, guid: d7f821f29a4fe1b46a3e9f1a3ac006ee, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: d5da954fe24b04541a8b2e7709126033, type: 2}
-    - target: {fileID: 753079403313384406, guid: d7f821f29a4fe1b46a3e9f1a3ac006ee, type: 3}
-      propertyPath: m_Text
-      value: Insert <color=#00000000>Name</color>
-      objectReference: {fileID: 0}
     - target: {fileID: 5659075541645611141, guid: d7f821f29a4fe1b46a3e9f1a3ac006ee, type: 3}
       propertyPath: m_Name
       value: DialogueCanvas
