@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Slime : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
-    public float speed = 0.5f;
+    [Header("Required Attributes")]
+    public float speed;
+    public int bountyValue = 3;
+    public int health = 7;
 
     private Transform target;
     private int waypointIndex = 0;
@@ -19,7 +22,7 @@ public class Slime : MonoBehaviour
         Vector3 direction = target.position - transform.position;
         transform.Translate(direction.normalized * speed * Time.deltaTime, Space.World);
 
-        if (Vector3.Distance(transform.position , target.position) <= 0.01f)
+        if (Vector3.Distance(transform.position, target.position) <= 0.01f)
         {
             GetNextWaypoint();
         }
@@ -36,6 +39,24 @@ public class Slime : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        
+    }
+
+    public int DestroyBountyReturn()
+    {
+        return bountyValue;
+    }
+
+    public bool DestroyTest(int damageTaken)
+    {
+        health = health - damageTaken;
+
+        if (health <= 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }
