@@ -356,7 +356,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cc8b2a0ab7b714448769a46d354f933, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayOnStart: {fileID: 11400000, guid: dc08235e65ce48b489acfd15e8dae544, type: 2}
+  WaveSpawner: {fileID: 996086248}
+  PlayBeforeWave:
+  - {fileID: 11400000, guid: dc08235e65ce48b489acfd15e8dae544, type: 2}
+  - {fileID: 11400000, guid: eeed1f14f403d9345b6ac021805fac08, type: 2}
+  - {fileID: 11400000, guid: d8e9251392ef80144a89bae89df45ad4, type: 2}
+  - {fileID: 11400000, guid: 8b6162ed8f568cf469d9d8c3f0172d6b, type: 2}
+  - {fileID: 11400000, guid: 099d41063f1f86f47a993cde97c74292, type: 2}
+  - {fileID: 11400000, guid: de510c310277fd94ebd304d0044003d3, type: 2}
 --- !u!4 &368350984
 Transform:
   m_ObjectHideFlags: 0
@@ -2588,10 +2595,10 @@ MonoBehaviour:
     slime: {fileID: 79879601158551308, guid: 48871eff999591f4284cc9ae6eb86c38, type: 3}
     rat: {fileID: 534533129235148521, guid: 82bf9a25658727149851376df09ccc76, type: 3}
     mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
-    slimeCount: 0
-    ratCount: 1
-    mushroomCount: 0
-    totalCount: 1
+    slimeCount: 5
+    ratCount: 5
+    mushroomCount: 5
+    totalCount: 15
     spawnRate: 1
   timeBetweenWaves: 5
   waveCountdown: 0
