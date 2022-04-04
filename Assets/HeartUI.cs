@@ -1,21 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HeartUI : MonoBehaviour
 {
     public LivesController LivesController;
-       
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Text LivesText;
 
-    // Update is called once per frame
-    void Update()
+    private int lastLives;
+
+    private void Update()
     {
-        
+        if (lastLives != LivesController.numberLives)
+        {
+            lastLives = LivesController.numberLives;
+
+            LivesText.text = lastLives.ToString();
+        }
     }
 }
