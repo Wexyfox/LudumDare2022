@@ -115,19 +115,25 @@ public class DialogueManager : MonoBehaviour
 
             currentText.Remove(scanHead, 1);
             currentText.Insert(insertHead, nextCharacter);
-            TextContent.text = currentText.ToString();
 
-            yield return new WaitForSeconds(1.0f / (font.CharactersPerMinute / 60.0f));
-
-            if (nextCharacter == ' ')
+            if (char.IsWhiteSpace(nextCharacter))
             {
                 yield return new WaitForSeconds(font.DelayBetweenWords);
             }
-            else if (nextCharacter == '.'
-                || nextCharacter == '?'
-                || nextCharacter == '!')
+            else
             {
-                yield return new WaitForSeconds(font.DelayBetweenSentences);
+                TextContent.text = currentText.ToString();
+
+                if (nextCharacter == '.'
+                    || nextCharacter == '?'
+                    || nextCharacter == '!')
+                {
+                    yield return new WaitForSeconds(font.DelayBetweenSentences);
+                }
+                else
+                {
+                    yield return new WaitForSeconds(1.0f / (font.CharactersPerMinute / 60.0f));
+                }
             }
 
             insertHead++;
