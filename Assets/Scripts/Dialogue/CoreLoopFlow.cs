@@ -22,6 +22,11 @@ public class CoreLoopFlow : MonoBehaviour
                 yield return null;
             }
 
+            while (WaveSpawner.state == WaveSpawner.SpawnState.Spawning)
+            {
+                yield return null;
+            }
+
             while (WaveSpawner.state == WaveSpawner.SpawnState.Waiting)
             {
                 yield return null;
