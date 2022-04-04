@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eddc7a231d4609f4abed1afbc2aa11ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
-  bountyValue: 6
+  speed: 0.6
+  bountyValue: 60
   health: 200
   damage: 5
