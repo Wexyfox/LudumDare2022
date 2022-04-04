@@ -9,10 +9,10 @@ public class CoreLoopFlow : MonoBehaviour
     
     private IEnumerator Start()
     {
-        WaveSpawner.state = WaveSpawner.SpawnState.Paused;
-
         for (int i = 0; i < WaveSpawner.waves.Length; i++)
         {
+            WaveSpawner.state = WaveSpawner.SpawnState.Paused;
+
             yield return StartCoroutine(DialogueManager.Instance.DialogueRoutine(PlayBeforeWave[i]));
 
             WaveSpawner.state = WaveSpawner.SpawnState.Counting;
