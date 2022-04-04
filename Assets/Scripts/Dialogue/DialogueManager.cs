@@ -96,10 +96,13 @@ public class DialogueManager : MonoBehaviour
         TextContent.fontStyle = font.FontStyle;
         TextContent.fontSize = font.FontSize;
         TextContent.alignment = font.TextAnchor;
+        
         TextAnimator.runtimeAnimatorController = font.Controller;
+        TextAnimator.SetBool("isTalking", true);
 
         PortraitAnimator.runtimeAnimatorController = message.Character.ProfileController;
-
+        PortraitAnimator.SetBool("isTalking", true);
+        
         var currentText = new StringBuilder();
         currentText.Append("<color=#00000000>");
 
@@ -139,5 +142,9 @@ public class DialogueManager : MonoBehaviour
             insertHead++;
             scanHead++;
         }
+
+
+        TextAnimator.SetBool("isTalking", false);
+        PortraitAnimator.SetBool("isTalking", false);
     }
 }
