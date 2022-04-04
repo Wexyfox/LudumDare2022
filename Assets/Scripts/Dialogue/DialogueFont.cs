@@ -9,7 +9,7 @@ public class DialogueFont : ScriptableObject
     public FontStyle FontStyle = FontStyle.Normal;
 
     [Header("Timing")]
-    public float WordsPerMinute = 60.0f;
+    public float CharactersPerMinute = 360.0f;
     [Space]
     public float DelayBetweenWords = 0.0f;
     public float DelayBetweenSentences = 0.0f;

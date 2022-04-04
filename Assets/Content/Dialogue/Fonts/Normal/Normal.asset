@@ -15,8 +15,8 @@ MonoBehaviour:
   Font: {fileID: 12800000, guid: b962c6a280486674ca18f21d017b5fa4, type: 3}
   FontSize: 12
   FontStyle: 0
-  WordsPerMinute: 60
-  DelayBetweenWords: 0
-  DelayBetweenSentences: 0
+  CharactersPerMinute: 1080
+  DelayBetweenWords: 0.01
+  DelayBetweenSentences: 0.05
   Controller: {fileID: 9100000, guid: bd513cd00a94e9c4f8701aee9e10e51a, type: 2}
   TextAnchor: 0
