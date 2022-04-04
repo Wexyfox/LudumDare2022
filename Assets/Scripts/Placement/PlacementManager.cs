@@ -7,25 +7,32 @@ public class PlacementManager : MonoBehaviour
     private Vector3 resetPosition;
     public SpriteRenderer offsetRenderer;
     private GameObject selectedPrefab;
+    private int towerCost;
 
     [Header("Required prefabs and sprites")]
     public GameObject crystal;
     public Sprite crystalGhost;
+    public int crystalCost;
 
     public GameObject frog;
     public Sprite frogGhost;
+    public int frogCost;
 
     public GameObject wizard;
     public Sprite wizardGhost;
+    public int wizardCost;
 
     public GameObject spike;
     public Sprite spikeGhost;
+    public int spikeCost;
 
     public GameObject bottle;
     public Sprite bottleGhost;
+    public int bottleCost;
 
     public GameObject slime;
     public Sprite slimeGhost;
+    public int slimeCost;
 
     private DetectionGround groundCheck;
     private DetectionWater waterCheck;
@@ -61,6 +68,7 @@ public class PlacementManager : MonoBehaviour
         offsetRenderer.sprite = null;
         validPlacement = false;
         placingMode = false;
+        towerCost = 0;
     }
 
     private void Update()
@@ -103,7 +111,13 @@ public class PlacementManager : MonoBehaviour
                 PlacementCheck();
                 if (validPlacement)
                 {
-                    SpawnPrefab();
+                    Debug.Log(towerCost);
+                    if (towerCost <= economyScript.CurrentMoney())
+                    {
+                        economyScript.SpendMoney(towerCost);
+                        SpawnPrefab();                        
+                    }
+                    
                 }
             }
         }
@@ -115,36 +129,42 @@ public class PlacementManager : MonoBehaviour
                 selectedPrefab = crystal;
                 groundWaterIdentifier = "ground";
                 offsetRenderer.sprite = crystalGhost;
+                towerCost = crystalCost;
             }
             else if (Input.GetKeyDown("w"))
             {
                 selectedPrefab = frog;
                 groundWaterIdentifier = "water";
                 offsetRenderer.sprite = frogGhost;
+                towerCost = frogCost;
             }
             else if (Input.GetKeyDown("e"))
             {
                 selectedPrefab = wizard;
                 groundWaterIdentifier = "ground";
                 offsetRenderer.sprite = wizardGhost;
+                towerCost = wizardCost;
             }
             else if (Input.GetKeyDown("r"))
             {
                 selectedPrefab = spike;
                 groundWaterIdentifier = "ground";
                 offsetRenderer.sprite = spikeGhost;
+                towerCost = spikeCost;
             }
             else if (Input.GetKeyDown("t"))
             {
                 selectedPrefab = bottle;
                 groundWaterIdentifier = "ground";
                 offsetRenderer.sprite = bottleGhost;
+                towerCost = bottleCost;
             }
             else if (Input.GetKeyDown("y"))
             {
                 selectedPrefab = slime;
                 groundWaterIdentifier = "ground";
                 offsetRenderer.sprite = slimeGhost;
+                towerCost = slimeCost;
             }
         }
     }
