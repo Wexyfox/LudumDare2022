@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b3b666369a9ef9447b9eaa8eb9e52dd6, type: 3}
-  m_Name: WAVE15
+  m_Name: GameOver
   m_EditorClassIdentifier: 
   Content:
   - Body: Ready to submit!?
@@ -68,10 +68,6 @@ MonoBehaviour:
     Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
     Font: {fileID: 11400000, guid: a3babbb93501ec24c9addd5fb4152b76, type: 2}
   - Body: Dear Lily...
-    Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
-    Font: {fileID: 11400000, guid: a66adceab91deb744bba48d457c89985, type: 2}
-  - Body: Over the last year that we've been talking I've developed feelings for
-      you.
     Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
     Font: {fileID: 11400000, guid: a66adceab91deb744bba48d457c89985, type: 2}
   - Body: Over the last year that we've been talking I've developed feelings for
