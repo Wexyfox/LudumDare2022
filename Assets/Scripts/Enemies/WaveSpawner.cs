@@ -5,6 +5,7 @@ public class WaveSpawner : MonoBehaviour
 {
     public Transform spawnLocation;
     private GameOver finishScript;
+    public AudioController audioScript;
 
     public enum SpawnState
     {
@@ -189,11 +190,21 @@ public class WaveSpawner : MonoBehaviour
         if (nextWaveIndex + 1 > waves.Length - 1)
         {
             gameObject.GetComponent<WaveSpawner>().enabled = false;
+            Debug.Log(nextWaveIndex);
             finishScript.GameWin();
         }
         else
         {
             nextWaveIndex++;
+        }
+
+        if (nextWaveIndex == 9)
+        {
+            audioScript.HardMusicPlay();
+        }
+        else if (nextWaveIndex == 14)
+        {
+            audioScript.FinalMusicPlay();
         }
     }
 }
