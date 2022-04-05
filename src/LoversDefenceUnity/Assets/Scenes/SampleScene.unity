@@ -8983,6 +8983,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FirstLevel: 0
   WaveSpawner: {fileID: 996086248}
+  LivesController: {fileID: 996086249}
   MainMenuFader: {fileID: 615128606}
   MainMenuWaitTime: 1
   MainMenuFadeOutTime: 0.1
