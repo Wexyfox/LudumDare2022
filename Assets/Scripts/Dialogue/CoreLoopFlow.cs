@@ -111,7 +111,9 @@ public class CoreLoopFlow : MonoBehaviour
         while (!Input.GetMouseButtonDown(0)
             && !Input.GetKeyDown(KeyCode.Space))
         {
-            SceneManager.LoadScene(FirstLevel);
+            yield return null;
         }
+
+        SceneManager.LoadScene(FirstLevel);
     }
 }
