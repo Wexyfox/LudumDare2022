@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3b666369a9ef9447b9eaa8eb9e52dd6, type: 3}
+  m_Name: GameOver
+  m_EditorClassIdentifier: 
+  Content:
+  - Body: Ready to submit!?
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
+    Font: {fileID: 0}
+  - Body: 'Bella! '
+    Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
+    Font: {fileID: 0}
+  - Body: Huh?
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
+    Font: {fileID: 0}
+  - Body: What?!
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
+    Font: {fileID: 0}
+  - Body: I'M THE GREAT WITCH!
+    Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
+    Font: {fileID: 11400000, guid: 965cc84b29d51d548a229d2e8f0e384e, type: 2}
+  - Body: ...
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
+    Font: {fileID: 0}
+  - Body: I've been trying to tell you!
+    Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
+    Font: {fileID: 0}
+  - Body: 'Oh. '
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
+    Font: {fileID: 0}
+  - Body: I didn't get your letters recently because I've been away.
+    Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
+    Font: {fileID: 0}
+  - Body: 'OHHHHH. '
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
+    Font: {fileID: 11400000, guid: 965cc84b29d51d548a229d2e8f0e384e, type: 2}
+  - Body: Yeah, I was at my sisters house. I'M the great witch.
+    Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
+    Font: {fileID: 11400000, guid: a66adceab91deb744bba48d457c89985, type: 2}
+  - Body: You're prettier than I thought you'd be.
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
+    Font: {fileID: 11400000, guid: a66adceab91deb744bba48d457c89985, type: 2}
+  - Body: Do you have a copy of the letter?
+    Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
+    Font: {fileID: 11400000, guid: a66adceab91deb744bba48d457c89985, type: 2}
+  - Body: No it's fine... it was nothing important.
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
+    Font: {fileID: 11400000, guid: a66adceab91deb744bba48d457c89985, type: 2}
+  - Body: Wait!
+    Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
+    Font: {fileID: 11400000, guid: 965cc84b29d51d548a229d2e8f0e384e, type: 2}
+  - Body: ...
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
+    Font: {fileID: 0}
+  - Body: I think it's here on my desk!!
+    Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
+    Font: {fileID: 0}
+  - Body: 'NO! '
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
+    Font: {fileID: 11400000, guid: a3babbb93501ec24c9addd5fb4152b76, type: 2}
+  - Body: Dear Lily...
+    Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
+    Font: {fileID: 11400000, guid: a66adceab91deb744bba48d457c89985, type: 2}
+  - Body: Over the last year that we've been talking I've developed feelings for
+      you.
+    Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
+    Font: {fileID: 11400000, guid: a66adceab91deb744bba48d457c89985, type: 2}
+  - Body: STOP!
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
+    Font: {fileID: 11400000, guid: 965cc84b29d51d548a229d2e8f0e384e, type: 2}
+  - Body: 'FINE, I ADMIT IT, I WANTED TO DESTROY THE EVIDENCE. '
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
+    Font: {fileID: 11400000, guid: 965cc84b29d51d548a229d2e8f0e384e, type: 2}
+  - Body: WHY?
+    Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
+    Font: {fileID: 11400000, guid: 965cc84b29d51d548a229d2e8f0e384e, type: 2}
+  - Body: BECAUSE YOU DIDN'T RESPOND SO I THOUGHT THAT THE GREAT AND BEAUTIFUL WITCH
+      DIDN'T...
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
+    Font: {fileID: 11400000, guid: 965cc84b29d51d548a229d2e8f0e384e, type: 2}
+  - Body: AND THEN I SAW YOU AND THOUGHT YOU COULDN'T BE HER SO...
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
+    Font: {fileID: 11400000, guid: 965cc84b29d51d548a229d2e8f0e384e, type: 2}
+  - Body: I sort of caught on that you were her like six hundred minions ago.
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
+    Font: {fileID: 0}
+  - Body: YOU COULD'VE JUST ASKED ME OUT!
+    Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
+    Font: {fileID: 11400000, guid: 965cc84b29d51d548a229d2e8f0e384e, type: 2}
+  - Body: I'M SHY
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
+    Font: {fileID: 11400000, guid: 965cc84b29d51d548a229d2e8f0e384e, type: 2}
+  - Body: ...
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
+    Font: {fileID: 0}
+  - Body: Do you want to go on a date?
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
+    Font: {fileID: 0}
+  - Body: ...
+    Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
+    Font: {fileID: 0}
+  - Body: '.......Yes. I do. '
+    Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
+    Font: {fileID: 0}

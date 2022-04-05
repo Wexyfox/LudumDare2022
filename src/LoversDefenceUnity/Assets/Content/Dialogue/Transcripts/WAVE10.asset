@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3b666369a9ef9447b9eaa8eb9e52dd6, type: 3}
+  m_Name: WAVE10
+  m_EditorClassIdentifier: 
+  Content:
+  - Body: Despite your defences, you are no match!
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
+    Font: {fileID: 0}
+  - Body: I seem to be handling this pretty well if I say so myself!
+    Character: {fileID: 11400000, guid: b2f89a293b3b1ff44beec10f2d6f1685, type: 2}
+    Font: {fileID: 0}
+  - Body: Not for long!
+    Character: {fileID: 11400000, guid: ae177cd36a844d2458da607420b5ae4a, type: 2}
+    Font: {fileID: 0}
