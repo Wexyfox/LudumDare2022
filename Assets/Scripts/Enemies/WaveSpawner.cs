@@ -28,6 +28,8 @@ public class WaveSpawner : MonoBehaviour
         public int mushroomCount;
         public float spawnRate;
 
+        public DialogueTranscript playBeforeWave;
+
         [HideInInspector]
         public int totalCount;
     }
