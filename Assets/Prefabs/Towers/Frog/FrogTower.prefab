@@ -205,7 +205,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   range: 4
   fireRate: 0.5
-  constructionCost: 200
   enemyTag: Enemy
   projectilePrefab: {fileID: 8342077796191498503, guid: 0be2bdfae6e0c7640b36b16398d43911, type: 3}
   projectileSpawnTransform: {fileID: 5558187482590353497}
@@ -220,6 +219,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7167690693663199077}
   - component: {fileID: 7167690693663199078}
+  - component: {fileID: 6532485895878620079}
   m_Layer: 0
   m_Name: Renderer
   m_TagString: Untagged
@@ -235,7 +235,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7167690693663199076}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.25, z: 0}
+  m_LocalPosition: {x: 0.25, y: -0.125, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -293,4 +293,24 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
+--- !u!95 &6532485895878620079
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7167690693663199076}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 94ae38a6631c4b34486a27ab6e43a85e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

@@ -107,6 +107,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4465522164138903845}
   - component: {fileID: 5212520567681578893}
+  - component: {fileID: 8109325706020383271}
   m_Layer: 0
   m_Name: FiringMechanism
   m_TagString: Untagged
@@ -144,11 +145,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   range: 2
   fireRate: 20
-  constructionCost: 100
   enemyTag: Enemy
   projectilePrefab: {fileID: 8717741713274923241, guid: 4a4940223d3673143895e9b17622c842, type: 3}
   projectileSpawnTransform: {fileID: 8477112915762990848}
   rotationalPart: {fileID: 8752393100071976000}
+--- !u!95 &8109325706020383271
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4465522164138903844}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f3fc1f0d738e8b94ea3124d52e9849e5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4465522164257283177
 GameObject:
   m_ObjectHideFlags: 0
@@ -159,6 +179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4465522164257283178}
   - component: {fileID: 4465522164257283179}
+  - component: {fileID: 4001006807817845540}
   m_Layer: 0
   m_Name: Renderer
   m_TagString: Untagged
@@ -174,7 +195,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4465522164257283177}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.25, z: 0}
+  m_LocalPosition: {x: 0.45, y: -0.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -232,7 +253,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
+--- !u!95 &4001006807817845540
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4465522164257283177}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f3fc1f0d738e8b94ea3124d52e9849e5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8898535086356866591
 GameObject:
   m_ObjectHideFlags: 0
