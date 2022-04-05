@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 79879601158551346}
   - component: {fileID: 79879601158551347}
   - component: {fileID: 79879601158551345}
+  - component: {fileID: 3261504182071407064}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Enemy
@@ -101,3 +102,23 @@ MonoBehaviour:
   bountyValue: 20
   health: 180
   damage: 1
+--- !u!95 &3261504182071407064
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79879601158551308}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c80472cef5108804486aad721b052061, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1369027307740220452}
   - component: {fileID: 1369027307740220453}
   - component: {fileID: 1369027307740220474}
+  - component: {fileID: 5555648396684618873}
   m_Layer: 0
   m_Name: Mushroom
   m_TagString: Enemy
@@ -101,3 +102,23 @@ MonoBehaviour:
   bountyValue: 50
   health: 300
   damage: 5
+--- !u!95 &5555648396684618873
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369027307740220475}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a88d3da3778b6af45b6ab3beae9fffab, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
