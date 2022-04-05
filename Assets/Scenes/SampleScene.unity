@@ -3938,7 +3938,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.31764707, g: 0.46868122, b: 0.5568628, a: 0}
+  m_BackGroundColor: {r: 0.31764707, g: 0.5568628, b: 0.49865693, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -5311,7 +5311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   money: 0
-  startingMoney: 2000
+  startingMoney: 300
 --- !u!4 &996086251
 Transform:
   m_ObjectHideFlags: 0
