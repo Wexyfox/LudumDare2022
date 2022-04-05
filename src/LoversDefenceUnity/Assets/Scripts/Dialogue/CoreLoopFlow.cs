@@ -6,6 +6,7 @@ public class CoreLoopFlow : MonoBehaviour
 {
     public int FirstLevel = 0;
     public WaveSpawner WaveSpawner;
+    public LivesController LivesController;
 
     [Header("MainMenu")]
     public CanvasGroup MainMenuFader;
@@ -85,18 +86,46 @@ public class CoreLoopFlow : MonoBehaviour
 
             while (WaveSpawner.state == WaveSpawner.SpawnState.Counting)
             {
+                if (LivesController.numberLives <= 0)
+                {
+                    WaveSpawner.state = WaveSpawner.SpawnState.Paused;
+                }
                 yield return null;
             }
 
             while (WaveSpawner.state == WaveSpawner.SpawnState.Spawning)
             {
+                if (LivesController.numberLives <= 0)
+                {
+                    WaveSpawner.state = WaveSpawner.SpawnState.Paused;
+                }
                 yield return null;
             }
 
             while (WaveSpawner.state == WaveSpawner.SpawnState.Waiting)
             {
+                if (LivesController.numberLives <= 0)
+                {
+                    WaveSpawner.state = WaveSpawner.SpawnState.Paused;
+                }
                 yield return null;
             }
+            if (LivesController.numberLives <= 0)
+            {
+                break;
+            }
+        }
+
+        if (LivesController.numberLives > 0)
+        {
+            foreach (var time in new TimedLoop(HUDFadeTime))
+            {
+                HUDFader.alpha = 1.0f - time;
+            }
+
+            WaveSpawner.state = WaveSpawner.SpawnState.Paused;
+            yield return StartCoroutine(DialogueManager.Instance.DialogueRoutine(LastDialogue));
+            yield return new WaitForSeconds(0.2f);
         }
 
         GameOverFader.gameObject.SetActive(true);
