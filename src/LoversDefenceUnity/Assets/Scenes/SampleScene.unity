@@ -5126,50 +5126,50 @@ MonoBehaviour:
     slime: {fileID: 79879601158551308, guid: 48871eff999591f4284cc9ae6eb86c38, type: 3}
     rat: {fileID: 534533129235148521, guid: 82bf9a25658727149851376df09ccc76, type: 3}
     mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
-    slimeCount: 6
+    slimeCount: 4
     ratCount: 0
     mushroomCount: 0
-    spawnRate: 1
+    spawnRate: 1.5
     playBeforeWave: {fileID: 11400000, guid: dc08235e65ce48b489acfd15e8dae544, type: 2}
     totalCount: 15
   - name: Wave2
     slime: {fileID: 79879601158551308, guid: 48871eff999591f4284cc9ae6eb86c38, type: 3}
     rat: {fileID: 534533129235148521, guid: 82bf9a25658727149851376df09ccc76, type: 3}
     mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
-    slimeCount: 12
-    ratCount: 2
+    slimeCount: 6
+    ratCount: 1
     mushroomCount: 0
-    spawnRate: 1
+    spawnRate: 1.5
     playBeforeWave: {fileID: 0}
     totalCount: 15
   - name: Wave3
     slime: {fileID: 79879601158551308, guid: 48871eff999591f4284cc9ae6eb86c38, type: 3}
     rat: {fileID: 534533129235148521, guid: 82bf9a25658727149851376df09ccc76, type: 3}
     mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
-    slimeCount: 15
-    ratCount: 3
+    slimeCount: 12
+    ratCount: 2
     mushroomCount: 1
-    spawnRate: 1
+    spawnRate: 1.5
     playBeforeWave: {fileID: 11400000, guid: eeed1f14f403d9345b6ac021805fac08, type: 2}
     totalCount: 15
   - name: Wave4
     slime: {fileID: 79879601158551308, guid: 48871eff999591f4284cc9ae6eb86c38, type: 3}
     rat: {fileID: 534533129235148521, guid: 82bf9a25658727149851376df09ccc76, type: 3}
     mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
-    slimeCount: 25
-    ratCount: 5
+    slimeCount: 20
+    ratCount: 3
     mushroomCount: 3
-    spawnRate: 1
+    spawnRate: 2.5
     playBeforeWave: {fileID: 0}
     totalCount: 15
   - name: Wave5
     slime: {fileID: 79879601158551308, guid: 48871eff999591f4284cc9ae6eb86c38, type: 3}
     rat: {fileID: 534533129235148521, guid: 82bf9a25658727149851376df09ccc76, type: 3}
     mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
-    slimeCount: 35
-    ratCount: 7
-    mushroomCount: 3
-    spawnRate: 1
+    slimeCount: 25
+    ratCount: 5
+    mushroomCount: 5
+    spawnRate: 2.5
     playBeforeWave: {fileID: 0}
     totalCount: 15
   - name: Wave6
@@ -5179,77 +5179,77 @@ MonoBehaviour:
     slimeCount: 40
     ratCount: 10
     mushroomCount: 10
-    spawnRate: 1
+    spawnRate: 2.5
     playBeforeWave: {fileID: 0}
     totalCount: 15
   - name: Wave7
     slime: {fileID: 79879601158551308, guid: 48871eff999591f4284cc9ae6eb86c38, type: 3}
     rat: {fileID: 534533129235148521, guid: 82bf9a25658727149851376df09ccc76, type: 3}
     mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
-    slimeCount: 45
+    slimeCount: 50
     ratCount: 12
     mushroomCount: 15
-    spawnRate: 1
+    spawnRate: 2.5
     playBeforeWave: {fileID: 11400000, guid: d8e9251392ef80144a89bae89df45ad4, type: 2}
     totalCount: 15
   - name: Wave8
     slime: {fileID: 79879601158551308, guid: 48871eff999591f4284cc9ae6eb86c38, type: 3}
     rat: {fileID: 534533129235148521, guid: 82bf9a25658727149851376df09ccc76, type: 3}
     mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
-    slimeCount: 50
+    slimeCount: 55
     ratCount: 20
     mushroomCount: 10
-    spawnRate: 1
+    spawnRate: 2.5
     playBeforeWave: {fileID: 0}
     totalCount: 15
   - name: Wave9
     slime: {fileID: 79879601158551308, guid: 48871eff999591f4284cc9ae6eb86c38, type: 3}
     rat: {fileID: 534533129235148521, guid: 82bf9a25658727149851376df09ccc76, type: 3}
     mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
-    slimeCount: 50
+    slimeCount: 60
     ratCount: 25
     mushroomCount: 12
-    spawnRate: 1
+    spawnRate: 2.5
     playBeforeWave: {fileID: 0}
     totalCount: 15
   - name: Wave10
     slime: {fileID: 79879601158551308, guid: 48871eff999591f4284cc9ae6eb86c38, type: 3}
     rat: {fileID: 534533129235148521, guid: 82bf9a25658727149851376df09ccc76, type: 3}
     mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
-    slimeCount: 50
+    slimeCount: 60
     ratCount: 20
     mushroomCount: 15
-    spawnRate: 1
+    spawnRate: 3
     playBeforeWave: {fileID: 11400000, guid: 8b6162ed8f568cf469d9d8c3f0172d6b, type: 2}
     totalCount: 15
   - name: Wave11
     slime: {fileID: 79879601158551308, guid: 48871eff999591f4284cc9ae6eb86c38, type: 3}
     rat: {fileID: 534533129235148521, guid: 82bf9a25658727149851376df09ccc76, type: 3}
     mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
-    slimeCount: 50
+    slimeCount: 60
     ratCount: 15
     mushroomCount: 15
-    spawnRate: 0.7
+    spawnRate: 3
     playBeforeWave: {fileID: 0}
     totalCount: 15
   - name: Wave12
     slime: {fileID: 79879601158551308, guid: 48871eff999591f4284cc9ae6eb86c38, type: 3}
     rat: {fileID: 534533129235148521, guid: 82bf9a25658727149851376df09ccc76, type: 3}
     mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
-    slimeCount: 50
+    slimeCount: 60
     ratCount: 15
     mushroomCount: 15
-    spawnRate: 0.6
+    spawnRate: 3
     playBeforeWave: {fileID: 0}
     totalCount: 15
   - name: Wave13
     slime: {fileID: 79879601158551308, guid: 48871eff999591f4284cc9ae6eb86c38, type: 3}
     rat: {fileID: 534533129235148521, guid: 82bf9a25658727149851376df09ccc76, type: 3}
     mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
-    slimeCount: 50
+    slimeCount: 60
     ratCount: 15
     mushroomCount: 15
-    spawnRate: 0.5
+    spawnRate: 3
     playBeforeWave: {fileID: 11400000, guid: 099d41063f1f86f47a993cde97c74292, type: 2}
     totalCount: 15
   - name: Wave14
@@ -5258,8 +5258,8 @@ MonoBehaviour:
     mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
     slimeCount: 50
     ratCount: 15
-    mushroomCount: 15
-    spawnRate: 0.4
+    mushroomCount: 25
+    spawnRate: 3
     playBeforeWave: {fileID: 0}
     totalCount: 15
   - name: Wave15
@@ -5268,18 +5268,18 @@ MonoBehaviour:
     mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
     slimeCount: 50
     ratCount: 15
-    mushroomCount: 15
-    spawnRate: 0.3
+    mushroomCount: 25
+    spawnRate: 3
     playBeforeWave: {fileID: 0}
     totalCount: 15
   - name: Wave16
     slime: {fileID: 79879601158551308, guid: 48871eff999591f4284cc9ae6eb86c38, type: 3}
     rat: {fileID: 534533129235148521, guid: 82bf9a25658727149851376df09ccc76, type: 3}
     mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
-    slimeCount: 100
-    ratCount: 100
-    mushroomCount: 100
-    spawnRate: 0.4
+    slimeCount: 55
+    ratCount: 20
+    mushroomCount: 25
+    spawnRate: 4
     playBeforeWave: {fileID: 0}
     totalCount: 15
   timeBetweenWaves: 5

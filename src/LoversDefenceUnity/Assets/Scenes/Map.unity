@@ -282,6 +282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnLocation: {fileID: 268070433}
+  audioScript: {fileID: 0}
   waves:
   - name: Wave1
     slime: {fileID: 79879601158551308, guid: 48871eff999591f4284cc9ae6eb86c38, type: 3}
@@ -290,8 +291,9 @@ MonoBehaviour:
     slimeCount: 0
     ratCount: 1
     mushroomCount: 0
-    totalCount: 1
     spawnRate: 1
+    playBeforeWave: {fileID: 0}
+    totalCount: 1
   - name: 'Wave2 '
     slime: {fileID: 79879601158551308, guid: 48871eff999591f4284cc9ae6eb86c38, type: 3}
     rat: {fileID: 534533129235148521, guid: 82bf9a25658727149851376df09ccc76, type: 3}
@@ -299,8 +301,9 @@ MonoBehaviour:
     slimeCount: 5
     ratCount: 2
     mushroomCount: 0
-    totalCount: 7
     spawnRate: 0.3
+    playBeforeWave: {fileID: 0}
+    totalCount: 7
   - name: Wave3
     slime: {fileID: 79879601158551308, guid: 48871eff999591f4284cc9ae6eb86c38, type: 3}
     rat: {fileID: 534533129235148521, guid: 82bf9a25658727149851376df09ccc76, type: 3}
@@ -308,8 +311,9 @@ MonoBehaviour:
     slimeCount: 9
     ratCount: 0
     mushroomCount: 2
-    totalCount: 11
     spawnRate: 0.1
+    playBeforeWave: {fileID: 0}
+    totalCount: 11
   timeBetweenWaves: 5
   waveCountdown: 0
   state: 2
@@ -519,13 +523,13 @@ MonoBehaviour:
   frogCost: 200
   wizard: {fileID: 2347793586283922321, guid: 442433b20456d584f8f6bf1c413f15b7, type: 3}
   wizardGhost: {fileID: 21300000, guid: 6733b65b6290adb4f99db9379b3f5008, type: 3}
-  wizardCost: 150
+  wizardCost: 180
   spike: {fileID: 4097942989781880031, guid: 9caaefce78433324b820712f359927d2, type: 3}
   spikeGhost: {fileID: 21300000, guid: ed449b7cae0e35b45b05d54329480d54, type: 3}
-  spikeCost: 130
+  spikeCost: 120
   bottle: {fileID: 8690904902501813919, guid: be74b41cdb564f74e9adf88ed68ce9d0, type: 3}
   bottleGhost: {fileID: 21300000, guid: 6328a37dcaf89294fb5860c8e9e41f42, type: 3}
-  bottleCost: 300
+  bottleCost: 250
   slime: {fileID: 875663612216681356, guid: 33f02405af6e08e4a95768732c1086c4, type: 3}
   slimeGhost: {fileID: 21300000, guid: 6e02bb7ce61ef554da03e2758d02cb1c, type: 3}
   slimeCost: 250
