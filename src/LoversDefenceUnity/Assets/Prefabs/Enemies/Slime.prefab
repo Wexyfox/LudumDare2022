@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.9
-  bountyValue: 20
+  bountyValue: 8
   health: 180
   damage: 1
 --- !u!95 &3261504182071407064
