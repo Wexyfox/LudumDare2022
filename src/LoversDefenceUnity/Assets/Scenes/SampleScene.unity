@@ -5218,7 +5218,7 @@ MonoBehaviour:
     mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
     slimeCount: 60
     ratCount: 20
-    mushroomCount: 15
+    mushroomCount: 20
     spawnRate: 3
     playBeforeWave: {fileID: 11400000, guid: 8b6162ed8f568cf469d9d8c3f0172d6b, type: 2}
     totalCount: 15
@@ -5227,7 +5227,7 @@ MonoBehaviour:
     rat: {fileID: 534533129235148521, guid: 82bf9a25658727149851376df09ccc76, type: 3}
     mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
     slimeCount: 60
-    ratCount: 15
+    ratCount: 25
     mushroomCount: 15
     spawnRate: 3
     playBeforeWave: {fileID: 0}
@@ -5237,8 +5237,8 @@ MonoBehaviour:
     rat: {fileID: 534533129235148521, guid: 82bf9a25658727149851376df09ccc76, type: 3}
     mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
     slimeCount: 60
-    ratCount: 15
-    mushroomCount: 15
+    ratCount: 30
+    mushroomCount: 32
     spawnRate: 3
     playBeforeWave: {fileID: 0}
     totalCount: 15
@@ -5247,8 +5247,8 @@ MonoBehaviour:
     rat: {fileID: 534533129235148521, guid: 82bf9a25658727149851376df09ccc76, type: 3}
     mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
     slimeCount: 60
-    ratCount: 15
-    mushroomCount: 15
+    ratCount: 30
+    mushroomCount: 30
     spawnRate: 3
     playBeforeWave: {fileID: 11400000, guid: 099d41063f1f86f47a993cde97c74292, type: 2}
     totalCount: 15
@@ -5256,7 +5256,7 @@ MonoBehaviour:
     slime: {fileID: 79879601158551308, guid: 48871eff999591f4284cc9ae6eb86c38, type: 3}
     rat: {fileID: 534533129235148521, guid: 82bf9a25658727149851376df09ccc76, type: 3}
     mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
-    slimeCount: 50
+    slimeCount: 60
     ratCount: 15
     mushroomCount: 25
     spawnRate: 3
@@ -5278,7 +5278,7 @@ MonoBehaviour:
     mushroom: {fileID: 1369027307740220475, guid: 51cb2824330a7a242902cf4010ed04e5, type: 3}
     slimeCount: 55
     ratCount: 20
-    mushroomCount: 25
+    mushroomCount: 40
     spawnRate: 4
     playBeforeWave: {fileID: 0}
     totalCount: 15
