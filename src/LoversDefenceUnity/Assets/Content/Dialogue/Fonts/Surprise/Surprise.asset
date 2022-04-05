@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0b26e6292e3fee44898924954e86f56, type: 3}
+  m_Name: Surprise
+  m_EditorClassIdentifier: 
+  Font: {fileID: 12800000, guid: b962c6a280486674ca18f21d017b5fa4, type: 3}
+  FontSize: 32
+  FontStyle: 1
+  CharactersPerMinute: 2160
+  DelayBetweenWords: 0.01
+  DelayBetweenSentences: 0.025
+  Controller: {fileID: 9100000, guid: 374bd21f8a0b0f148a12d7b53921d20e, type: 2}
+  TextAnchor: 4
