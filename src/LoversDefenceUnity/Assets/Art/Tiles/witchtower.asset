@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Bush
+  m_Name: witchtower
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -1705081060, guid: 4139ba282f8180f4680d93b501390210, type: 3}
+  m_Sprite: {fileID: -1396665861, guid: cc8bc9b7907894d40aa9439792d6566c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
