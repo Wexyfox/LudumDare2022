@@ -22,3 +22,4 @@ MonoBehaviour:
   m_AnimationStartTime: 1
   m_AnimationStartFrame: 1
   m_TileColliderType: 1
+  m_TileAnimationFlags: 0
