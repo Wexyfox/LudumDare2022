@@ -42,14 +42,11 @@ public class PlacementManager : MonoBehaviour
     private float tempX;
     private float tempY;
 
-    private EconomySystem economyScript;
-
     private void Start()
     {
         resetPosition = new Vector3(transform.position.x, transform.position.y);
         groundCheck = gameObject.GetComponent<DetectionGround>();
         waterCheck = gameObject.GetComponent<DetectionWater>();
-        economyScript = GameObject.FindGameObjectWithTag("GameController").GetComponent<EconomySystem>();
     }
 
     private void SpawnPrefab()
@@ -109,9 +106,9 @@ public class PlacementManager : MonoBehaviour
                 PlacementCheck();
                 if (validPlacement)
                 {
-                    if (towerCost <= economyScript.CurrentMoney())
+                    if (towerCost <= EconomySystem.Instance.CurrentMoney())
                     {
-                        economyScript.SpendMoney(towerCost);
+                        EconomySystem.Instance.SpendMoney(towerCost);
                         SpawnPrefab();
                     }
                 }

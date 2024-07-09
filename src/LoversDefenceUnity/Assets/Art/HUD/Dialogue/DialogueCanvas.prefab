@@ -666,7 +666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adb677e60409a784b874a4ec5e724a62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WindForwardSpeed: 16
+  WindForwardSpeed: 1024
   DefaultDialogueFont: {fileID: 11400000, guid: a66adceab91deb744bba48d457c89985, type: 2}
   TextAnimator: {fileID: 537692054121452064}
   TextContent: {fileID: 753079403313384406}

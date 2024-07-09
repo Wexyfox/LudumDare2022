@@ -123,85 +123,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slime_0
+      name: slimeanim_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 17
-        width: 26
-        height: 28
-      alignment: 8
-      pivot: {x: 1, y: 0}
+        x: 0
+        y: 0
+        width: 32
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.375}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: baed3fdeb7ad43f43acb5198e35089c4
-      internalID: 882396165
+      spriteID: 73635438148df4b4299e517564a6ec0c
+      internalID: -766244458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime_1
+      name: slimeanim_1
       rect:
         serializedVersion: 2
-        x: 35
-        y: 17
-        width: 26
-        height: 27
-      alignment: 8
-      pivot: {x: 1, y: 0}
+        x: 32
+        y: 0
+        width: 32
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.375}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7b9c6dad3c7b57459004a0225eb6bcd
-      internalID: -1472162593
+      spriteID: 4c3d6a6a5ffc04144b38e0fc7552d74d
+      internalID: 781470770
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime_2
+      name: slimeanim_2
       rect:
         serializedVersion: 2
-        x: 67
-        y: 17
-        width: 26
-        height: 21
-      alignment: 8
-      pivot: {x: 1, y: 0}
+        x: 64
+        y: 0
+        width: 32
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.375}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04599c2719346594a866c0a64b95a0b0
-      internalID: 1810130591
+      spriteID: 3e33cc92711036849a19f4f8cc4ad020
+      internalID: 1942925929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime_3
+      name: slimeanim_3
       rect:
         serializedVersion: 2
-        x: 99
-        y: 17
-        width: 26
-        height: 34
-      alignment: 8
-      pivot: {x: 1, y: 0}
+        x: 96
+        y: 0
+        width: 32
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.375}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fb0643071d8be84b9a5c5576bd23c0b
-      internalID: 1914553408
+      spriteID: a625d3182934d624597922aef94cff3e
+      internalID: -1190804098
       vertices: []
       indices: 
       edges: []
@@ -217,10 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Slime_0: 882396165
-      Slime_1: -1472162593
-      Slime_2: 1810130591
-      Slime_3: 1914553408
+      slimeanim_0: -766244458
+      slimeanim_1: 781470770
+      slimeanim_2: 1942925929
+      slimeanim_3: -1190804098
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

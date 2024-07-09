@@ -4,7 +4,6 @@ public class ProjectileHoming : MonoBehaviour
 {
     private Transform target;
     private Enemy enemyScript;
-    private EconomySystem economyScript;
     private int bountyValue;
 
     [Header("Attributes")]
@@ -39,11 +38,10 @@ public class ProjectileHoming : MonoBehaviour
     private void HitTarget()
     {
         enemyScript = target.GetComponent<Enemy>();
-        economyScript = GameObject.FindGameObjectWithTag("GameController").GetComponent<EconomySystem>();
         if (enemyScript.DestroyTest(damage))
         {
             bountyValue = enemyScript.DestroyBountyReturn();
-            economyScript.EarnMoney(bountyValue);
+            EconomySystem.Instance.EarnMoney(bountyValue);
             Destroy(target.gameObject);
         }
         Destroy(gameObject);

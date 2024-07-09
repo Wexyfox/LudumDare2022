@@ -126,12 +126,12 @@ TextureImporter:
       name: WizardCharging_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 17
-        width: 26
-        height: 39
-      alignment: 8
-      pivot: {x: 1, y: 0}
+        x: 0
+        y: 0
+        width: 32
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.375}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -147,12 +147,12 @@ TextureImporter:
       name: WizardCharging_1
       rect:
         serializedVersion: 2
-        x: 36
-        y: 17
-        width: 26
-        height: 39
-      alignment: 8
-      pivot: {x: 1, y: 0}
+        x: 33
+        y: 0
+        width: 32
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.375}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -168,12 +168,12 @@ TextureImporter:
       name: WizardCharging_2
       rect:
         serializedVersion: 2
-        x: 69
-        y: 17
-        width: 26
-        height: 39
-      alignment: 8
-      pivot: {x: 1, y: 0}
+        x: 66
+        y: 0
+        width: 32
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.375}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,12 +189,12 @@ TextureImporter:
       name: WizardCharging_3
       rect:
         serializedVersion: 2
-        x: 102
-        y: 17
-        width: 26
-        height: 39
-      alignment: 8
-      pivot: {x: 1, y: 0}
+        x: 99
+        y: 0
+        width: 32
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.375}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -210,12 +210,12 @@ TextureImporter:
       name: WizardCharging_4
       rect:
         serializedVersion: 2
-        x: 134
-        y: 17
-        width: 26
-        height: 40
-      alignment: 8
-      pivot: {x: 1, y: 0}
+        x: 131
+        y: 0
+        width: 32
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.375}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
